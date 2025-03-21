@@ -1,0 +1,93 @@
+@import url("reset.css");
+
+/* Назва статті */
+.name {
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.name__2 {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px;
+}
+
+.main {
+    margin: 15px;
+    padding: 0,5px;
+    border: 0px;
+    color: blue;
+}
+
+.list {
+    margin: 1px;
+    padding: 1px;
+    border: 0px;
+    color: blue;
+}
+
+.text {
+    margin: 10px;
+    padding: 10px;
+    border: 0px;
+}
+
+.image-container {
+    margin: 15px;
+}
+/* 1 рівень вкладеності */
+.item__red {
+    color: red;
+    margin: 15px;
+    padding: 0px;
+    line-height: 15px;
+}
+
+.item__green {
+    color: green;
+    margin: 15px;
+    padding: 0px;
+    line-height: 15px;
+}
+
+.link {
+    margin: 15px;
+    padding: 1px;
+    color: blue;
+}
+
+/* 2 рівень вкладеності */
+.item__blue {
+    color: blue;
+    margin: 25px;
+    padding: 1px;
+}
+
+.item__orange {
+    color: orange;
+    margin: 25px;
+    padding: 1px;
+}
+
+/* 3 рівень вкладеності */
+.item__color4597f7 {
+    color: #4597f7;
+    margin: 45px;
+    padding: 1px;
+}
+.item__color5d5d5d {
+    color: #5d5d5d;
+    margin: 45px;
+    padding: 1px;
+}
+
+/* span всередині 2 рівня вкладеності */
+.item__turquoise {
+    color: #a0f0fc;
+    margin: 25px;
+    padding: 1px;
+}
